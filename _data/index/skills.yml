@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: GitHub, HTML5/CSS, Kubernetes, Android, Docker, Rancher, Java, C/C++, Kotlin, Unix/Linux, Ruby/Rails
+percentage: 100, 95, 65, 90, 95, 65, 70, 50, 65, 85, 85

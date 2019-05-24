@@ -1,0 +1,90 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: LAPPIS Infrastructure
+    i18n: company_f
+  desc:
+    detail: 
+    i18n: company_f_desc
+  date:
+    detail: Oct. 2018 - Present
+    i18n: company_f_date
+  job:
+    detail: Infrastructure Engineer Internship
+    i18n: company_f_job
+  icon: fa-code
+  present: true
+
+- name:
+    detail: Brasfort
+    i18n: company_e
+  desc:
+    detail: Android app to control vehicles and drivers of the company, using continuous deploy pipeline and continuous integration. Build in Ruby on Rails an API to communicate with the App. Implemented dashboard in vue.js for viewing real-time data
+    i18n: company_e_desc
+  date:
+    detail: Aug. 2018 - Present
+    i18n: company_e_date
+  job:
+    detail: Full Stack Developer
+    i18n: company_e_job
+  icon: fa-plus-square
+  present: true
+
+
+- name:
+    detail: Wave Pagamentos
+    i18n: company_d
+  desc:
+    detail: Maintain in java, Android app that communicates with an API. Refined visual part and user experience  and run usability tests to ensure quality. Worked on communication and efficiency with external devices such as printer and card machine
+    i18n: company_d_desc
+  date:
+    detail: Mar. 2018 - Jun. 2018
+    i18n: company_d_date
+  job:
+    detail: Android Developer
+    i18n: company_d_job
+  icon: fa-plus-square
+
+- name:
+    detail: LAPPIS Pushing Together (Empurrando Juntos)
+    i18n: company_c
+  desc:
+    detail: A platform for digital social participation that seeks to enhance the dynamics of interaction in democratic debate environments. In this context, the main objective was the research and development of software innovations that articulate machine learning technologies, gamification and interfaces (UX) aimed at participation in scale with safeguards against the phenomena of opinion bubbles and manipulation in media environments social policies. In addition, it is the objective of this Project to create conditions for the complete technopolitical appropriation of the Secretariat based on the innovative articulation of agile development methodologies that allow the participation of the institution's managers and members of the free software communities worked on the Project.
+    i18n: company_c_desc
+  date:
+    detail: Mar. 2018 - Sep. 2018
+    i18n: company_c_date
+  job:
+    detail: Researcher and Front-end Developer
+    i18n: company_c_job
+  icon: fa-plus-square
+
+- name:
+    detail: LAPPIS Noosfero
+    i18n: company_b
+  desc:
+    detail: Maintain a free software web-based platform for social and solidarity economy networks, noosfero. Improved performance from the old UI on Noosfero, using cache and turning into a responsive web app.
+    i18n: company_b_desc
+  date:
+    detail: Jun. 2017 - Feb. 2018
+    i18n: company_b_date
+  job:
+    detail: Software Engineering Internship
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+    detail: Trezentos Methodology
+    i18n: company_a
+  desc:
+    detail: The Trezentos methodology, created in mid-2013, is based on active and collaborative learning and his academic experience has shown that the passing rate has improved from 50 to 95% in a discipline in the basic engineering cycle, and it was possible to student with a learning disability. With these assertions in mind, the Trezentos mobile project aims to facilitate the application of the method of the same name, as well as facilitate access to information about it.
+    i18n: company_a_desc
+  date:
+    detail: Mar. 2017 - Jun. 2017
+    i18n: company_a_date
+  job:
+    detail: Full Stack Developer and Researcher
+    i18n: company_a_job
+  icon: fa-plus-square
+
+
