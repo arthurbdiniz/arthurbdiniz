@@ -9,7 +9,9 @@ tags: [GSoC,Communiy]
 icon: icon-html
 ---
 
-Following the approval of [Google Summer of Code](https://summerofcode.withgoogle.com/), a [community bounding](https://summerofcode.withgoogle.com/how-it-works/#timeline) period begins where students from each organization spend a period from `May 6 to May 27, 2019`, knowing more about their organization.
+Following the approval of [Google Summer of Code](https://summerofcode.withgoogle.com/) as the student selected on the development of the [Cloud Image Finder](), a web application that will make it easier for users to find official Debian cloud images, with `Lucas Kanashiro` and `Bastian Blank` as mentors.
+
+A [community bounding](https://summerofcode.withgoogle.com/how-it-works/#timeline) period begins where students from each organization spend a period from `May 6 to May 27, 2019`, knowing more about their organization.
 
 That way I would like to document my experience with Debian during this time.
 
