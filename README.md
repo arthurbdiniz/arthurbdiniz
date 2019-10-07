@@ -2,20 +2,29 @@
 
 
 # Testing Locally
+
+### Docker
+
+```bash
+docker run -p 4000:4000 --rm -it $(docker build -q .)
+```
+
+### Manual
+
 To test your site locally, you’ll need
 - [ruby](https://www.ruby-lang.org/en/)
 - the [github-pages](https://github.com/github/pages-gem) gem
-## Installing ruby
+#### Installing ruby
 There are [lots of different ways to install ruby](https://www.ruby-lang.org/en/documentation/installation/).
 In Mac OS X, older versions of ruby will already be installed. But I use the [Ruby Version Manager (RVM)](https://rvm.io/) to have a more recent version. You could also use [Homebrew](https://brew.sh/).
 In Windows, use [RubyInstaller](https://rubyinstaller.org/). (In most of this tutorial, I’ve assumed you’re using a Mac or some flavor of Unix. It’s possible that none of this was usable for Windows folks. Sorry!)
-## Installing the github-pages gem
+#### Installing the github-pages gem
 Run the following command:
 ```
 gem install github-pages
 ```
 This will install the github-pages gem and all dependencies (including [jekyll](https://jekyllrb.com/)).
-## Later, to update the gem, type:
+#### Later, to update the gem, type:
 ```
 gem update github-pages
 ```
