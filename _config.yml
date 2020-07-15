@@ -2,7 +2,7 @@
 
 # Website settings
 title: Arthur Diniz
-description: Arthur's blog,use github pages.
+description: Arthur's site.
 keywords: github,gh-pages
 baseurl:
 url: http://www.arthurbdiniz.com  # url should be 'http://<github_username>.github.io/homepage' as before
