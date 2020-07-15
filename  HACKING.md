@@ -83,7 +83,7 @@ For example: URL is `http://127.0.0.1:4000/python/`. In `_data/blog.yml`, we def
         <div class="navy-line"></div>
         {% assign category = page.url | remove:'/' | capitalize %}
         {% if category == 'Html' %}
-        {% assign category = category | upcase %}
+            {% assign category = category | upcase %}
         {% endif %}
         <h1>{{ category }}</h1>
     </div>
@@ -93,7 +93,8 @@ For example: URL is `http://127.0.0.1:4000/python/`. In `_data/blog.yml`, we def
         <ul id="pag-itemContainer" style="list-style:none;">
             {% assign counter = 0 %}
             {% for post in site.categories[category] %}
-            {% assign counter = counter | plus: 1 %}
+                {% assign counter = counter | plus: 1 %}
+            {% endfor %}
             <li>
 ```
 
