@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: GitHub, HTML5/CSS, Kubernetes, Android, Docker, Rancher, Java, C/C++, Kotlin, Unix/Linux, Ruby/Rails
-percentage: 100, 95, 65, 90, 95, 65, 70, 50, 65, 85, 85
+aspects: GitHub, HTML5/CSS, AWS, Kubernetes, Docker, Rancher, Terraform, Android, Python, C/C++, Unix/Linux, Ruby/Rails
+percentage: 95, 90, 65, 75, 85, 75, 70, 60, 75, 65, 90, 65
