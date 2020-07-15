@@ -4,7 +4,7 @@ title:  "GSoC Community Bonding Experience"
 date:   2019-05-27
 desc: "Following the approval of Google Summer of Code], a community bounding period begins where students from each organization spend a period from May 6 to May 27, 2019, knowing more about their organization."
 keywords: "GSoC,Experience,Communiy,debian"
-categories: [HTML]
+categories: [GSoC]
 tags: [GSoC,Communiy]
 icon: icon-html
 ---
