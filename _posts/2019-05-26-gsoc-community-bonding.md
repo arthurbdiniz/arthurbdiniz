@@ -6,7 +6,7 @@ desc: "Following the approval of Google Summer of Code], a community bounding pe
 keywords: "GSoC,Experience,Communiy,debian"
 categories: [GSoC]
 tags: [GSoC,Communiy]
-icon: icon-html
+icon: fa-paperclip
 ---
 
 Following the approval of [Google Summer of Code](https://summerofcode.withgoogle.com/) as the student selected on the development of the [Cloud Image Finder](), a web application that will make it easier for users to find official Debian cloud images, with `Lucas Kanashiro` and `Bastian Blank` as mentors.
