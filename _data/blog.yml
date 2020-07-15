@@ -5,11 +5,11 @@
 - name: GSoC
   href: /gsoc/
 
-- name: Linux
-  href: /linux/
-
 - name: AWS
   href: /aws/
+
+- name: Linux
+  href: /linux/
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
 # - name: Python
