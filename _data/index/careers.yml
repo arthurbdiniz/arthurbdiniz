@@ -4,7 +4,7 @@
     detail: LAPPIS Infrastructure
     i18n: company_f
   desc:
-    detail: 
+    detail: Network structure and firewall manager, using structured cabling, Cat6 cables, OPNsense and OpenVPN. Incorporation of Kubernetes as main container orchestrator along with Traefik and MetalLB tools.
     i18n: company_f_desc
   date:
     detail: Oct. 2018 - Present
@@ -35,7 +35,7 @@
     detail: Wave Pagamentos
     i18n: company_d
   desc:
-    detail: Maintain in java, Android app that communicates with an API. Refined visual part and user experience  and run usability tests to ensure quality. Worked on communication and efficiency with external devices such as printer and card machine
+    detail: Maintain in java, Android app that communicates with an API. Refined visual part and user experience and run usability tests to ensure quality. Worked on communication and efficiency with external devices such as printer and card machine
     i18n: company_d_desc
   date:
     detail: Mar. 2018 - Jun. 2018
