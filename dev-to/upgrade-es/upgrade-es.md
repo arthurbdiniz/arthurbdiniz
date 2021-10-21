@@ -1,9 +1,9 @@
 ---
 title: Upgrade Elasticsearch from 2.3 to 7.4
-published: false
+published: true
 description: 'Sometimes it is common just to deploy a Elasticsearch domain at AWS and forget to keep it up-to-date with the latest version. After a while, you realize that it’s five major releases behind the stable version and there’s no straight path to upgrade.'
 tags: 'AWS, Elasticsearch, Upgrade'
-canonical_url: null
+canonical_url: https://www.arthurbdiniz.com/aws/2020/06/24/upgrade-es-2.3-to-7.4.html
 series: AWS
 id: 870877
 ---
