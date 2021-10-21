@@ -148,3 +148,14 @@ I use [UglifyJS2](https://github.com/mishoo/UglifyJS2), [clean-css](https://gith
 OR
 
 Edit CSS files at `_sass` folder.
+
+Custom variables set for each post, located between the triple-dashed lines in your editor. Here is a list of possibilities:
+
+title: the title of your article
+published: boolean that determines whether or not your article is published
+description: description area in Twitter cards and open graph cards
+tags: max of four tags, needs to be comma-separated
+canonical_url: link for the canonical version of the content
+cover_image: cover image for post, accepts a URL.
+The best size is 1000 x 420.
+series: post series name.
