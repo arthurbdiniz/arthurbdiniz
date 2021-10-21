@@ -1,0 +1,23 @@
+name: publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Publish articles on dev.to
+      uses: sinedied/publish-devto@v2
+      with:
+        files: 'dev-to/**/*.md'
+        devto_key: ${{ secrets.DEVTO_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+        conventional_commits: true

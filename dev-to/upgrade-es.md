@@ -1,12 +1,10 @@
 ---
-layout: post
-title: Upgrade Elasticsearch from 2.3 to 7.4
-date: 2020-06-24
-desc: "Sometimes it is common just to deploy a Elasticsearch domain at AWS and forget to keep it up-to-date with the latest version. After a while, you realize that it’s five major releases behind the stable version and there’s no straight path to upgrade."
-keywords: ""
-categories: [AWS]
-tags: [AWS, Elasticsearch, Upgrade]
-icon: icon-aws
+title: "Upgrade Elasticsearch from 2.3 to 7.4"
+published: false
+description: "Sometimes it is common just to deploy a Elasticsearch domain at AWS and forget to keep it up-to-date with the latest version. After a while, you realize that it’s five major releases behind the stable version and there’s no straight path to upgrade."
+tags: AWS, Elasticsearch, Upgrade
+canonical_url: null
+series: AWS
 ---
 
 Sometimes it is common just to deploy a Elasticsearch domain at AWS and forget to keep it up-to-date with the latest version. After a while, you realize that it's five major releases behind the stable version and there's no straight path to upgrade.
@@ -18,7 +16,6 @@ The idea of this post is to show the problems that you can face during this proc
 - ES domain v5.1 (Optional)
 - IAM account with S3 and ES permissions
 
----
 
 ## From 2.3 to 5.1
 
@@ -71,8 +68,7 @@ From now on Amazon ES offers in-place Elasticsearch upgrades for domains that ru
 
 Currently, Amazon ES supports the following upgrade paths.
 
-#### 5.1 to 5.6
-#### 5.6 to 6.8
+#### 5.1 to 5.6 and 5.6 to 6.8
 
 > Important:
 Indices created in version 6.x no longer support multiple mapping types. Indices created in version 5.x still support multiple mapping types when restored into a 6.x cluster. Check that your client code creates only a single mapping type per index.
@@ -91,6 +87,7 @@ This next steps will repeat until you get to the latest ES version.
 ```
 docker run -it --env-file vars.env dnxsolutions/es-auto-upgrade reindex.py
 ```
+
 #### 2. Rollout Upgrade
 Go to your domain actions and select the **Upgrade Domain** button.
 
@@ -146,9 +143,8 @@ done
 ```
 
 
----
-
 #### String -> Text
+
 ```json
 {
     "mappings":{
@@ -162,6 +158,7 @@ done
 ```
 
 #### Float -> Long
+
 ```json
 {
     "mappings":{
