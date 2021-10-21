@@ -17,6 +17,7 @@ The idea of this post is to show the problems that you can face during this proc
 - ES domain v5.1 (Optional)
 - IAM account with S3 and ES permissions
 
+---
 
 ## From 2.3 to 5.1
 
@@ -36,13 +37,16 @@ All the code can be found at: [es-auto-upgrade](https://github.com/DNXLabs/es-au
 6. Restore snapshot from S3 into the new domain
 
 #### Teardown
+
 1. Delete S3 bucket
 2. Delete IAMpermissions (Policy, Role, and detachments)
 
 #### Dependencies
+
 - Docker
 
 #### Variables
+
 ```bash
 # Elasticsearch
 export OLD_DOMAIN_NAME=test
