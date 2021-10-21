@@ -1,7 +1,7 @@
 {
-  "name": "Jalpc",
+  "name": "site",
   "version": "1.1.1",
-  "description": "npm config file for Jalpc",
+  "description": "npm config file for site",
   "main": "",
   "scripts": {
     "build": "node build/build.js",
