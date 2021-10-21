@@ -1,0 +1,33 @@
+{
+  "website":{
+    "title": "Arthur Diniz"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "Sobre",
+    "skills": "Skills",
+    "projects": "Projetos",
+    "career": "Carreira",
+    "blog": "Blog",
+    "link": "Link"
+  },
+  "about_me":{
+    "about_me": "Sobre",
+    "des": "Sou um Engenheiro DevOps/SRE com experiência em desenvolvimento de sites e Android, operações de automação e escrita de scripts."
+  },
+  "skills":{
+    "my_skills": "Minhas Skills"
+  },
+  "projects":{
+    "my_projects": "Meus Projetos"
+  },
+  "career":{},
+  "blog":{
+    "my_blog": "Meu Blog"
+  },
+  "link":{
+    "link": "Link",
+    "view": "views"
+  }
+
+}
