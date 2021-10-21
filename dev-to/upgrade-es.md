@@ -1,10 +1,11 @@
 ---
-title: "Upgrade Elasticsearch from 2.3 to 7.4"
+title: Upgrade Elasticsearch from 2.3 to 7.4
 published: false
-description: "Sometimes it is common just to deploy a Elasticsearch domain at AWS and forget to keep it up-to-date with the latest version. After a while, you realize that it’s five major releases behind the stable version and there’s no straight path to upgrade."
-tags: AWS, Elasticsearch, Upgrade
+description: 'Sometimes it is common just to deploy a Elasticsearch domain at AWS and forget to keep it up-to-date with the latest version. After a while, you realize that it’s five major releases behind the stable version and there’s no straight path to upgrade.'
+tags: 'AWS, Elasticsearch, Upgrade'
 canonical_url: null
 series: AWS
+id: 870869
 ---
 
 Sometimes it is common just to deploy a Elasticsearch domain at AWS and forget to keep it up-to-date with the latest version. After a while, you realize that it's five major releases behind the stable version and there's no straight path to upgrade.
