@@ -5,7 +5,6 @@ description: 'Sometimes it is common just to deploy a Elasticsearch domain at AW
 tags: 'AWS, Elasticsearch, Upgrade'
 canonical_url: null
 series: AWS
-id: 870869
 ---
 
 Sometimes it is common just to deploy a Elasticsearch domain at AWS and forget to keep it up-to-date with the latest version. After a while, you realize that it's five major releases behind the stable version and there's no straight path to upgrade.
@@ -96,15 +95,15 @@ docker run -it --env-file vars.env dnxsolutions/es-auto-upgrade reindex.py
 #### 2. Rollout Upgrade
 Go to your domain actions and select the **Upgrade Domain** button.
 
-![rollout_1]({{ site.img_path }}/upgrade-es/rollout_1.png)
+![rollout_1](./assets/rollout_1.png)
 
 Then select the Upgrade checkbox and Submit.
 
-![rollout_2]({{ site.img_path }}/upgrade-es/rollout_2.png)
+![rollout_2](./assets/rollout_2.png)
 
 AWS now will take care of the rest taking snapshots and upgrading to the next ES version. You can check the progress at the Upgrade History tab.
 
-![rollout_3]({{ site.img_path }}/upgrade-es/rollout_2.png)
+![rollout_3](./assets/rollout_2.png)
 
 Once this step is finished, repeat the reindex and upgrade until you get to 7.4.
 
