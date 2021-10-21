@@ -12,4 +12,4 @@ WORKDIR /site
 
 RUN bundle install
 
-ENTRYPOINT bundle exec jekyll server --livereload -H 0.0.0.0
+ENTRYPOINT bundle exec jekyll server -H 0.0.0.0
