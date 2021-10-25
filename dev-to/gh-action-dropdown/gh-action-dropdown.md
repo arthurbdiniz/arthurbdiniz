@@ -1,6 +1,6 @@
 ---
 title: Dropdown for GitHub workflows input parameters
-published: false
+published: true
 description: 'Sometimes when we look at CI/CD tools embedded within git-based software repository manager like GitHub, GitLab or Bitbucket, we ran into a lack of some features.'
 tags: 'GitHub, Actions, Dropdown'
 canonical_url: 'https://www.arthurbdiniz.com/github/actions/workflows/2021/10/23/gh-action-dropdown.html'
