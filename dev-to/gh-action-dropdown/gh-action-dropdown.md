@@ -6,6 +6,7 @@ tags: 'GitHub, Actions, Dropdown'
 canonical_url: 'https://www.arthurbdiniz.com/github/actions/workflows/2021/10/23/gh-action-dropdown.html'
 series: GitHub
 id: 875888
+date: '2021-10-25T22:09:59Z'
 ---
 
 # Dropdown for GitHub workflows input parameters
