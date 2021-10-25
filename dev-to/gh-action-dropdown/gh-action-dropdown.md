@@ -50,6 +50,7 @@ All code was developed in pure JavaScript, open-source licensed under Apache 2.0
 ## Install extension
 
 - [Chrome](https://chrome.google.com/webstore/detail/github-action-dropdown-in/deogklnblohhopmnkllaeinijefddcnm)
+
 > Firefox: is still in review process to be published.
 
 Once installed, the extension is ready to use and the final result we see is the Actions interface with drop-downs. :)
@@ -74,5 +75,5 @@ Also feel free to connect with me on LinkedIn: https://www.linkedin.com/in/arthu
 
 # References
 
-https://github.community/t/can-workflow-dispatch-input-be-option-list/127338
-https://stackoverflow.com/questions/69296314/dropdown-for-github-workflows-input-parameters
+- https://github.community/t/can-workflow-dispatch-input-be-option-list/127338
+- https://stackoverflow.com/questions/69296314/dropdown-for-github-workflows-input-parameters
