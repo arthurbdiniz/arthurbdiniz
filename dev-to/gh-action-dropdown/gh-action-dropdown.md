@@ -5,6 +5,7 @@ description: 'Sometimes when we look at CI/CD tools embedded within git-based so
 tags: 'GitHub, Actions, Dropdown'
 canonical_url: 'https://www.arthurbdiniz.com/github/actions/workflows/2021/10/23/gh-action-dropdown.html'
 series: GitHub
+id: 875888
 ---
 
 # Dropdown for GitHub workflows input parameters
