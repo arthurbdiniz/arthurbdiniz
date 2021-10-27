@@ -51,8 +51,7 @@ All code was developed in pure JavaScript, open-source licensed under Apache 2.0
 ## Install extension
 
 - [Chrome](https://chrome.google.com/webstore/detail/github-action-dropdown-in/deogklnblohhopmnkllaeinijefddcnm)
-
-> Firefox: is still in review process to be published.
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-action-dropdown-input/)
 
 Once installed, the extension is ready to use and the final result we see is the Actions interface with drop-downs. :)
 
