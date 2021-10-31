@@ -1,12 +1,13 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-# - name: Jalpc
-#   i18n: jalpc
-#   gh_user: jarrekk
-#   repo: Jalpc
-#   img: /static/assets/img/landing/jekyll.png
-#   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+- name: gh-action-dropdown-list-input
+  i18n: gh-action-dropdown-list-input
+  gh_user: arthurbdiniz
+  repo: gh-action-dropdown-list-input
+  img: /static/assets/img/landing/gh-action-dropdown.jpg
+  desc: Extends GitHub Action UI replacing plain text input fields to the dropdown.
+
 
 # - name: Python
 #   i18n: cpython
