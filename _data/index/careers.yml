@@ -15,7 +15,7 @@
     detail: Nov. 2021 - Present
     i18n: company_f_date
   job:
-    detail: DevOps Engineer
+    detail: Senior SRE/DevOps Engineer
     i18n: company_f_job
   icon: fa-code
   present: true
