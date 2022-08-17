@@ -1,4 +1,4 @@
-FROM ruby:2.7
+FROM jekyll/jekyll:4.2.2
 
 EXPOSE 4000
 

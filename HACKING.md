@@ -6,7 +6,9 @@
 ### Docker
 
 ```bash
-docker run -p 4000:4000 --rm -it $(docker build -q .)
+make build
+make run
+make shell
 ```
 
 ### Manual
@@ -64,8 +66,7 @@ This *yml file* is about blog page navbar
 The following is mapping between *yml files* to *donation*
 
 * donation/donationlist.yml ==> blog/donate.html
-* donation/alipay.yml  ==>  blog/donate.html
-* donation/wechat_pay.yml ==> blog/donate.yml
+* donation/methods.yml  ==>  blog/donate.html
 
 ## Chart Skills
 

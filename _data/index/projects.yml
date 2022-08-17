@@ -1,6 +1,7 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
 - name: gh-action-dropdown-list-input
   i18n: gh-action-dropdown-list-input
   gh_user: arthurbdiniz
@@ -8,16 +9,9 @@
   img: /static/assets/img/landing/gh-action-dropdown.jpg
   desc: Extends GitHub Action UI replacing plain text input fields to the dropdown.
 
-
-# - name: Python
-#   i18n: cpython
-#   gh_user: python
-#   repo: cpython
-#   img: /static/assets/img/landing/python.png
-#   desc: This project is other's project. I use another request to get repo's information.
-
-# - name: Google
-#   i18n: google
-#   url: https://google.com
-#   img: /static/assets/img/landing/google.png
-#   desc: This is another project.
+- name: kind-kong
+  i18n: kind-kong
+  gh_user: arthurbdiniz
+  repo: kind-kong
+  img: /static/assets/img/landing/kind-kong.jpg
+  desc: Template repo showing how to use Kong Ingress Controller inside a Kubernetes cluster.

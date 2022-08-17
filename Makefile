@@ -7,7 +7,9 @@ shell:
 .PHONY: shell
 
 run:
-	docker-compose up --build
+	docker run -it \
+		-p 4000:4000 \
+		-v $(PWD):/site site
 .PHONY: run
 
 stop:

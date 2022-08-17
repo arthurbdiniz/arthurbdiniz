@@ -19,10 +19,10 @@ permalink: /donate/
         <div class="col-sm-8 col-sm-offset-2">
             <h2 class="text-center m"></h2>
             <div class="slick">
-                {% for banco_do_brasil in site.data.donation.banco_do_brasil %}
+                {% for method in site.data.donation.methods %}
                 <div>
                     <div class="ibox-content">
-                        <img src="{{ banco_do_brasil.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
+                        <img src="{{ method.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
                     </div>
                 </div>
                 {% endfor %}
