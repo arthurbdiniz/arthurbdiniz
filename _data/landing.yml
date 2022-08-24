@@ -31,6 +31,13 @@
   page: blog/
   css: testimonials navy-section
 
+- id: badges
+  i18n: nav.badges
+  name: Badges
+  tpl: blog.html
+  page: badges/
+  css: testimonials navy-section
+
 - id: links
   i18n: nav.link
   name: Links
