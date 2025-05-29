@@ -1,30 +1,55 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
 - name:
-    detail: iFood
+    detail: Amazon Web Services (AWS)
     i18n: company_f
   desc:
     detail: |
-      Design and implement API Gateway solutions/platforms using Kong, Terragrunt, and Terraform.
-      Improve DevOps automation (deployment and releases) with Chef, Jenkins, and GitLab CI/CD.
-      Ensure performance, stability, scalability, and security of microservices inside the AWS cloud.
-      Migration of legacy platforms to containers using Docker.
-      Monitor platform using Airflow, and Databricks to analyze logs and metrics."
-    i18n: company_f_desc
+      - Developed and enhanced automation solutions for Amazon Managed Services customers using AWS native services like Systems Manager (SSM).
+      - Designed and implemented internal APIs and backend systems to enable customization and management of service automations.
+      - Improved reliability and scalability of customer-facing automation workflows through infrastructure as code practices.
+      - Collaborated with cross-functional teams to optimize operational processes and reduce manual intervention.
+      - Implemented monitoring and observability solutions to ensure high availability of critical automation systems.
   date:
-    detail: Nov. 2021 - Present
+    detail: Jan. 2023 - Present
     i18n: company_f_date
   job:
-    detail: Senior SRE/DevOps Engineer
+    detail: Systems Development Engineer II
     i18n: company_f_job
   icon: fa-code
   present: true
 
 - name:
+    detail: iFood
+    i18n: company_f
+  desc:
+    detail: |
+      - Design and implement API Gateway solutions/platforms using Kong, Terragrunt, and Terraform.
+      - Improve DevOps automation (deployment and releases) with Chef, Jenkins, and GitLab CI/CD.
+      - Ensure performance, stability, scalability, and security of microservices inside the AWS cloud.
+      - Migration of legacy platforms to containers using Docker.
+      - Monitor platform using Airflow, and Databricks to analyze logs and metrics."
+    i18n: company_f_desc
+  date:
+    detail: Nov. 2021 - Nov. 2022
+    i18n: company_f_date
+  job:
+    detail: Senior SRE/DevOps Engineer
+    i18n: company_f_job
+  icon: fa-code
+
+- name:
     detail: DNX Solutions
     i18n: company_f
   desc:
-    detail: Building, improving terraform modules and testing them on AWS. Architect AWS-based Kubernetes solution using terraform. Develop an internal Python CLI tool to control and automate tasks.
+    detail: |
+      - Design and implement solutions for Cloud Computing utilizing infrastructure as code with CloudFormation (AWS), CDK, and Terraform.
+      - Architect and implement AWS-based Kubernetes (EKS) solutions using CI/CD tools, deployment, automation, and orchestration.
+      - Implement solutions focusing on performance, stability, scalability, security, and compliance inside AWS.
+      - Migration of on-premise environments for Cloud Computing.
+      - Implementation, adoption, and improvement of DevOps processes and tools.
+      - Development of an internal Python CLI tool to control and automate tasks.
     i18n: company_f_desc
   date:
     detail: Fev. 2020 - Nov. 2021
@@ -33,13 +58,14 @@
     detail: DevOps Engineer
     i18n: company_f_job
   icon: fa-code
-  present: true
 
 - name:
     detail: LAPPIS Infrastructure
     i18n: company_f
   desc:
-    detail: Network structure and firewall manager, using structured cabling, Cat6 cables, OPNsense and OpenVPN. Incorporation of Kubernetes as main container orchestrator along with Traefik and MetalLB tools.
+    detail: |
+      - Network structure and firewall manager, using structured cabling, Cat6 cables, OPNsense and OpenVPN.
+      - Incorporation of Kubernetes as main container orchestrator along with Traefik and MetalLB tools.
     i18n: company_f_desc
   date:
     detail: Oct. 2018 - Nov. 2019
@@ -48,13 +74,14 @@
     detail: Infrastructure Engineer Internship
     i18n: company_f_job
   icon: fa-code
-  present: true
 
 - name:
     detail: Brasfort
     i18n: company_e
   desc:
-    detail: Android app to control vehicles and drivers of the company, using continuous deploy pipeline and continuous integration. Build in Ruby on Rails an API to communicate with the App. Implemented dashboard in vue.js for viewing real-time data.
+    detail: |
+      - Android app to control vehicles and drivers of the company, using continuous deploy pipeline and continuous integration.
+      - Build in Ruby on Rails an API to communicate with the App. Implemented dashboard in vue.js for viewing real-time data.
     i18n: company_e_desc
   date:
     detail: Aug. 2018 - May. 2019
@@ -63,14 +90,15 @@
     detail: Full Stack Developer
     i18n: company_e_job
   icon: fa-plus-square
-  present: true
-
 
 - name:
     detail: Wave Pagamentos
     i18n: company_d
   desc:
-    detail: Maintain in java, Android app that communicates with an API. Refined visual part and user experience and run usability tests to ensure quality. Worked on communication and efficiency with external devices such as printer and card machine.
+    detail: |
+      - Maintain in java, Android app that communicates with an API.
+      - Refined visual part and user experience and run usability tests to ensure quality.
+      - Worked on communication and efficiency with external devices such as printer and card machine.
     i18n: company_d_desc
   date:
     detail: Mar. 2018 - Jun. 2018
@@ -84,7 +112,9 @@
     detail: LAPPIS Pushing Together (Empurrando Juntos)
     i18n: company_c
   desc:
-    detail: A platform for digital social participation that seeks to enhance the dynamics of interaction in democratic debate environments. In this context, the main objective was the research and development of software innovations that articulate machine learning technologies, gamification and interfaces (UX) aimed at participation in scale with safeguards against the phenomena of opinion bubbles and manipulation in media environments social policies. In addition, it is the objective of this Project to create conditions for the complete technopolitical appropriation of the Secretariat based on the innovative articulation of agile development methodologies that allow the participation of the institution's managers and members of the free software communities worked on the Project.
+    detail: |
+      A platform for digital social participation that seeks to enhance the dynamics of interaction in democratic debate environments.
+      In this context, the main objective was the research and development of software innovations that articulate machine learning technologies, gamification and interfaces (UX) aimed at participation in scale with safeguards against the phenomena of opinion bubbles and manipulation in media environments social policies. In addition, it is the objective of this Project to create conditions for the complete technopolitical appropriation of the Secretariat based on the innovative articulation of agile development methodologies that allow the participation of the institution's managers and members of the free software communities worked on the Project.
     i18n: company_c_desc
   date:
     detail: Mar. 2018 - Sep. 2018

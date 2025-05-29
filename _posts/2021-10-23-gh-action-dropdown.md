@@ -4,9 +4,7 @@ title: Dropdown for GitHub workflows input parameters
 date: 2021-10-23
 desc: "Sometimes when we look at CI/CD tools embedded within git-based software repository manager like GitHub, GitLab or Bitbucket, we ran into a lack of some features."
 keywords: ""
-categories: [GitHub, Actions, Workflows]
 tags: [GitHub, Actions, Workflows]
-icon: icon-aws
 ---
 
 # Dropdown for GitHub workflows input parameters

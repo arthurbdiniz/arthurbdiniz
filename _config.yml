@@ -16,7 +16,7 @@ author:  # change following line to your infomation.
   last_name: Diniz  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: arthurbdiniz  # Leave blank if you don't have now
-  linkedin_id: arthur-diniz-987a34137 # Leave blank if you don't have now
+  linkedin_id: arthurbdiniz # Leave blank if you don't have now
   #facebook_username: jiakunnj  # Leave blank if you don't have now
   #twitter_username: jiakun614  # Leave blank if you don't have now
   email: me@arthurbdiniz.com  # Leave blank if you don't have now
@@ -28,11 +28,11 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: I am a DevOps/SRE Engineer with website and android development, automation Ops and writing scripts experience.
+  desc: I am a DevOps/Site Reliability Engineer (SRE) with experience in APIs, infrastructure automation, and scripting.
 
 # comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: arthurbdiniz
+# disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+#   name: arthurbdiniz
 
 # analytics
 ## google analytics
@@ -48,11 +48,11 @@ ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get
   # id:
 
 ## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
+index_carousel: off  # index page carousel switch
+blog_carousel: off  # blog page carousel switch
 
 # scss
 sass:
