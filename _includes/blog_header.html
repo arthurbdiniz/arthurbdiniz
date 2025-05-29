@@ -41,7 +41,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right" id="i18_navbar">
                   {% for section in site.data.landing %}
-                  <li {% if page.url == section.page %} class="active" {% else %}{% endif %}>
+                  <li {% if page.url contains section.page %} class="active" {% else %}{% endif %}>
                     {% if section.page %}
                       <a class="page-scroll" href="{{ section.page }}">
                     {% else %}

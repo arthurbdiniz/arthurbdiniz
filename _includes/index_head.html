@@ -16,19 +16,9 @@
 
   <!-- Main scripts -->
   <script src="{{ "/static/assets/app-20211021.min.js" | prepend: site.baseurl }}"></script>
+
   {% if site.data.index.projects %}
   <script async defer src="{{ "/static/js/github_api.min.js" | prepend: site.baseurl }}"></script>
   {% endif %}
-  {% if site.data.index.language %}
-  <script src="{{"/static/assets/i18-20211021.min.js"| prepend: site.baseurl }}"></script>
-  {% endif %}
 
-  <!-- Google AdSense -->
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-6196184620211021",
-      enable_page_level_ads: true
-    });
-  </script>
 </head>
